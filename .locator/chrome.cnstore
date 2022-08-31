@@ -1,0 +1,99 @@
+﻿{
+  "id": "34dacd59-3c44-4151-9046-af08d9394dc2",
+  "name": "chrome",
+  "nodes": [
+    {
+      "id": "e747a12c-6e68-4099-aa99-49bd74cca917",
+      "name": "zhihu",
+      "nodes": [],
+      "locators": [
+        {
+          "id": "4d105ac5-5137-4b0a-be66-b2223d96cb4a",
+          "name": "span_title",
+          "filePath": "0fbc58bf-0b78-413f-a0e2-3dfcc4877190.jpg",
+          "content": {
+            "automationType": "Chrome",
+            "processName": {
+              "value": "chrome"
+            },
+            "filePath": {
+              "value": "chrome.exe"
+            },
+            "version": {
+              "value": "1.3"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "role": {
+                    "value": "window"
+                  },
+                  "title": {
+                    "value": "clicknium - 搜索结果 - 知乎"
+                  },
+                  "url": {
+                    "value": "https://www.zhihu.com/search?type=content&q=clicknium",
+                    "excluded": true
+                  },
+                  "className": {
+                    "value": "Chrome_WidgetWin_1"
+                  },
+                  "controlMetaType": "Tab"
+                },
+                "childControls": [
+                  {
+                    "identifier": {
+                      "tag": {
+                        "value": "SPAN"
+                      },
+                      "class": {
+                        "value": "Highlight"
+                      },
+                      "ancestorId": {
+                        "value": "SearchMain"
+                      },
+                      "ancestorName": {
+                        "value": "2593104411",
+                        "excluded": true
+                      },
+                      "ancestorClass": {
+                        "value": "ContentItem-title"
+                      },
+                      "isLeaf": {
+                        "value": "1"
+                      },
+                      "cssSelector": {
+                        "value": "body>div>div>main>div>div>div>div>div>div>div>div>div>div>div>h2>div>a>span",
+                        "excluded": true
+                      },
+                      "sInfo": {
+                        "value": "你们都用Python实现了哪些办公自动化？",
+                        "excluded": true
+                      },
+                      "tableRow": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "tableCol": {
+                        "value": "-1",
+                        "excluded": true
+                      },
+                      "controlMetaType": "Web",
+                      "index": {
+                        "value": "1",
+                        "excluded": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "originalName": "zhihu"
+    }
+  ],
+  "locators": [],
+  "originalName": "chrome"
+}
