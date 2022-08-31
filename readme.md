@@ -1,5 +1,7 @@
 # 知乎自动化sample集合
 
+**[clicknium](https://www.clicknium.com/)** 是基于 python 实现的一套 免费的UI 自动化的库，功能强大、简单易用，可以用来操作桌面、 web 、 java 、 sap 等应用。clicknium 相比于其他的自动化库，使用更简单，相比于大家熟知的 selenium，**[clicknium](https://www.clicknium.com/)** 上手更简单，页面元素的定位不需要人工再去写 xpath ，**内置的录制器录制一下页面元素控件就会自动生成选择器，同时 clicknium 还支持桌面应用**，在实现复杂混合web和桌面应用自动化场景中，可以无缝衔接；
+
 ## search
 简单起见，没有做登录那一块，会涉及滑块验证码或者手机验证码，后续可以提供。
 
